@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&family=Jolly+Lodger&family=Metal+Mania&display=swap');
+$greenalien:#6CC417;
+$redblood:#880808;
+
+
+$theme-colors:(
+    primary:$greenalien,
+    secondary:$redblood,
+
+);
+
+#root {
+    max-width: 100vw;
+}
+
+.nav-link{
+    color:$redblood !important;
+    background: black!important;
+    &.active{
+        border-color: $greenalien !important;
+    }
+    &:hover{
+        border-color: $redblood !important;
+    }
+    font-family: 'Jolly Lodger', cursive;
+    font-size: 1.5rem !important;
+}
+
+.h6{
+    font-family: 'Metal Mania', cursive;
+    font-size: 2.25rem!important
+}
+
+p{
+    font-family: 'Ceviche One', cursive;
+    font-size: 1.75rem!important;
+    width:20rem;
+}
+
+
+@media screen and (min-width:480px) {
+    p{
+        width: 25rem;
+    }
+}
+
+@media screen and (min-width:576px) {
+    p{
+        width: 30rem;
+    }
+}
+
+@media screen and (min-width:640px) {
+    p{
+        width: 35rem;
+    }
+}
+@media screen and (min-width:768px) {
+    p{
+        width: 40rem;
+    }
+}
+
+
+@import 'bootstrap/scss/bootstrap.scss';
