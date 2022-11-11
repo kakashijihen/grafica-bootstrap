@@ -99,8 +99,8 @@ export const VolumeOptions=[
         ventas:[
             {semana:1, cantidad:77015},
             {semana:2, cantidad:18820},
-            {semana:3, cantidad:0},
-            {semana:4, cantidad:0},
+            {semana:3, cantidad:9200},
+            {semana:4, cantidad:6112},
         ]
     },
 ]
